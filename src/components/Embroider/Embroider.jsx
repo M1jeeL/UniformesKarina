@@ -8,8 +8,8 @@ const Embroider = () => {
     <div className="embroider-container">
       <div className="left-side">
         <div className="left-text">
-          Tambien realizamos bordados con
-          <br /> tus diseños personalizados a medida
+          ¡Adem&aacute;s realizamos bordados con
+          <br /> tus diseños personalizados a medida!
         </div>
         <img src={machine} alt="Maquina bordadora" className="img-machine" />
       </div>

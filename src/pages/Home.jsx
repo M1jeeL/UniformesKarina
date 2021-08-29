@@ -6,7 +6,7 @@ import Colleges from "../components/Colleges/Colleges";
 import Info from "../components/Info/Info";
 import Embroider from "../components/Embroider/Embroider";
 import Footer from "../components/Footer/Footer";
-import Gallery from "../components/Gallery/Gallery";
+import MyGallery from "../components/MyGallery/MyGallery";
 
 const Home = () => {
   return (
@@ -16,7 +16,7 @@ const Home = () => {
       <Hero />
       <Colleges />
       <Info />
-      <Gallery />
+      <MyGallery />
       <Embroider />
       <Footer />
     </>

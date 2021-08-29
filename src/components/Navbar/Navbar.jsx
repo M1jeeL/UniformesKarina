@@ -1,15 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.scss";
 
 const Navbar = () => {
+  const [btnBurger, setBtnBurger] = useState(false);
+  const [navLinksOpen, setNavLinksOpen] = useState(false);
   return (
     <nav className="navbar-container">
-      <div className="logo">Uniformes Karina</div>
-      <div className="nav-links">
+      <div className="logo">
+        <a href="/">Uniformes Karina</a>
+      </div>
+      <div className={navLinksOpen ? "nav-links open" : "nav-links"}>
         <ul>
-          <li>Galer&iacute;a</li>
-          <li>Contacto</li>
+          <a href="#gallery">
+            <li className="nav-item-link">Galer&iacute;a</li>
+          </a>
+          <a href="#contact-form">
+            <li className="nav-item-link">Contacto</li>
+          </a>
         </ul>
+      </div>
+      <div
+        className={btnBurger ? "menu-btn open" : "menu-btn"}
+        onClick={() => {
+          setBtnBurger(!btnBurger);
+          setNavLinksOpen(!navLinksOpen);
+        }}
+      >
+        <div className="menu-btn-burger"></div>
       </div>
     </nav>
   );
