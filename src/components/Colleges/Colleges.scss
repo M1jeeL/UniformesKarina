@@ -1,0 +1,25 @@
+.colleges-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  min-height: 31.25rem;
+  margin-top: -8rem;
+  .colleges-text {
+    color: #c63637;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 64px;
+    margin: 1rem;
+  }
+  .college-logos{
+      display:flex;
+      flex-flow: row wrap;
+      margin: 2rem;
+      .college-logo{
+        margin: 1rem 4rem;
+        height: 245px;
+        width: 180px;
+      }
+  }
+}

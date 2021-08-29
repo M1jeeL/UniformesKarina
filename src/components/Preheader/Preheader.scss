@@ -1,0 +1,36 @@
+.pre-header-container {
+  background-color: #707070;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 0 2rem;
+  height: 2rem;
+
+  .pre-header-item {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    .pre-header-icono {
+      color: #f0f0f0;
+      max-width: 24px;
+      margin-right: 0.5rem;
+    }
+    .pre-header-icono-wsp {
+      color: #25d366;
+      transform: scale(1.4);
+      margin-left: 0.5rem;
+    }
+    .pre-header-icono-fb {
+        color: #3B5998;
+        transform: scale(1.4);
+        margin-left: 0.5rem;
+      }
+    .pre-header-text {
+      color: #f0f0f0;
+      font-style: italic;
+      font-family: "Rubik", sans-serif;
+      margin-left: 0.5rem;
+    }
+  }
+}

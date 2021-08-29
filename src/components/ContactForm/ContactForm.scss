@@ -1,0 +1,55 @@
+.form-contact-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+  .title-contact-form {
+    color: #f0f0f0;
+    font: italic bold 24px "Rubik";
+  }
+  .input-container {
+    display: flex;
+    flex-flow: column wrap;
+
+    .contact-form-input{
+        border: none;
+      border-radius: 50px;
+      color: #707070;
+      font: italic bold 20px "Rubik";
+      height: 3rem;
+      margin-bottom: 1.5rem;
+      padding: 0 1rem;
+      width: 30rem;
+      &:focus{
+          border: none;
+          outline: none;
+      }
+    }
+    .contact-form-textarea {
+        border: none;
+      border-radius: 18px;
+      color: #707070;
+      font: italic bold 20px "Rubik";
+      height: 10rem;
+      padding: 0.5rem 1rem;
+      width: 30rem;
+      &:focus{
+        border: none;
+        outline: none;
+    }
+    }
+    
+  }
+  .contact-form-btn {
+    background-color: #4e54c8;
+    border: none;
+    border-radius: 20px;
+    color: #f0f0f0;
+    cursor: pointer;
+    font: italic bold 24px 'Rubik';
+    height: 50px;
+    width: 250px;
+
+  }
+}

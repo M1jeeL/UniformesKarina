@@ -1,0 +1,22 @@
+.hero {
+  background-color: #ffbfb0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items:center;
+  height: 36rem;
+  .hero-text {
+    color: #f0f0f0;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .hero-swiper-products{
+      width: 50rem;
+  }
+}
+.wave-hero {
+  margin-top: -0.2rem;
+  transform: rotate(180deg);
+}

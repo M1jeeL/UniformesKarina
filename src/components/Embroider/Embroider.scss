@@ -1,0 +1,17 @@
+.embroider-container {
+  background-color: #96b4ff;
+  display: flex;
+  height: 600px;
+  .left-side {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;    
+    justify-content: center;
+    width: 50%;
+    .left-text {
+      color: #f0f0f0;
+      font: italic bold 24px "Rubik";
+      margin-bottom: 6rem;
+    }
+  }
+}

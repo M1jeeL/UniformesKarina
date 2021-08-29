@@ -1,0 +1,27 @@
+.navbar-container {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    max-height: 120px;
+    padding: 1rem 4rem;
+  .logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 48px;
+    color: #c63637;
+
+  }
+  .nav-links {
+      ul{
+          display: flex;
+          list-style: none;
+          li{
+              color: #707070;
+              margin: 0 2rem;
+              font-size: 24px;
+              font-weight: bold;
+              font-family: 'Rubik', sans-serif;;
+
+          }
+      }
+  }
+}
