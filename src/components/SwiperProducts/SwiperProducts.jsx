@@ -14,14 +14,23 @@ const SwiperProducts = () => {
   return (
     <>
       <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
+        slidesPerView={2}
+        spaceBetween={10}
+        breakpoints= {{
+            320: {
+                slidesPerView: 2,
+                spaceBetween: 20
+              },
+              // when window width is >= 480px
+              630: {
+                slidesPerView: 3,
+                spaceBetween: 30
+              },
+        }}
         freeMode={true}
         loop={true}
         pagination={{
           clickable: true,
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
         }}
         
       >

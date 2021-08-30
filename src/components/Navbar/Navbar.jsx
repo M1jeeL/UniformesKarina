@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {Link} from 'react-router-dom'
 import "./Navbar.scss";
 
 const Navbar = () => {
@@ -7,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="navbar-container">
       <div className="logo">
-        <a href="/">Uniformes Karina</a>
+        <Link to="/">Uniformes Karina</Link>
       </div>
       <div className={navLinksOpen ? "nav-links open" : "nav-links"}>
         <ul>

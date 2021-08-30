@@ -6,13 +6,13 @@
   width: 50%;
   .title-contact-form {
     color: #f0f0f0;
-    font: italic bold 24px "Rubik";
+    font: italic bold 2rem "Rubik";
     text-align: center;
   }
   .input-container {
     display: flex;
     flex-flow: column wrap;
-
+    width: 80%;
     .contact-form-input{
         border: none;
       border-radius: 50px;
@@ -21,7 +21,7 @@
       height: 3rem;
       margin-bottom: 1.5rem;
       padding: 0 1rem;
-      width: 30rem;
+      width: 100%;
       &:focus{
           border: none;
           outline: none;
@@ -34,7 +34,7 @@
       font: italic bold 20px "Rubik";
       height: 10rem;
       padding: 0.5rem 1rem;
-      width: 30rem;
+      width: 100%;
       &:focus{
         border: none;
         outline: none;
@@ -53,4 +53,20 @@
     width: 250px;
 
   }
+}
+
+@media (max-width: 992px){
+    .form-contact-container {
+        margin-top: 2rem;
+        width: 100%;
+        .title-contact-form {
+            margin: 1rem 0 2.5rem 0;
+        }
+        .input-container {
+          width: 90%;
+        }
+      }
+      .contact-form-btn{
+          margin: 2rem 0;
+      }
 }

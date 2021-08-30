@@ -14,7 +14,7 @@ const Embroider = () => {
         <img src={machine} alt="Maquina bordadora" className="img-machine" />
       </div>
       
-          <ContactForm />
+    <ContactForm />
       
     </div>
   );

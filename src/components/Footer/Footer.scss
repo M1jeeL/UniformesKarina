@@ -6,12 +6,12 @@
   background: linear-gradient(#232526, #414345);
   .footer-address {
     color: #f0f0f0;
-    font: bold 24px "Rubik";
+    font: bold 1.5rem "Rubik";
   }
   .footer-social {
     display: flex;
     flex-flow: column wrap;
-    font: bold 24px "Rubik";
+    font: bold 1.5rem "Rubik";
     .footer-social-cel {
       color: #f0f0f0;
       span {
@@ -25,8 +25,8 @@
 
       .footer-ig a {
         display: flex;
-        width: 64px;
-        height: 64px;
+        width: 4rem;
+        height: 4rem;
         border-radius: 50%;
         justify-content: center;
         cursor: pointer;
@@ -61,8 +61,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 64px;
-        height: 64px;
+        width: 4rem;
+        height: 4rem;
         border-radius: 50%;
       }
 
@@ -78,8 +78,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 64px;
-        height: 64px;
+        width: 4rem;
+        height: 4rem;
         border-radius: 50%;
       }
 
@@ -94,7 +94,7 @@
     }
   }
   .footer-logo {
-    font: 48px "Pacifico";
+    font: 4rem "Pacifico";
     color: #c63637;
   }
 }
@@ -104,4 +104,35 @@
     color: #f0f0f0;
     text-align: center;
     font: italic bold 16px 'Rubik';
+}
+
+@media (max-width: 1200px){
+    .footer-container{
+        .footer-address{
+            font-size: 1.3rem;
+        }
+        .footer-social{
+            font-size: 1.3rem;
+        }
+        .footer-logo{
+            font-size: 3rem;
+        }
+    }
+}
+
+@media (max-width: 992px){
+    .footer-container{
+        flex-flow: column wrap;
+        height: auto;
+        .footer-address{
+            margin: 1rem 0;
+        }
+        .footer-social{
+            margin: 1rem 0;
+        }
+        .footer-logo{
+            margin: -1rem 0 1rem 0;
+            text-align: center;
+        }
+    }
 }

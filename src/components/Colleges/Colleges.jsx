@@ -7,7 +7,7 @@ import "./Colleges.scss";
 const Colleges = () => {
   return (
     <div className="colleges-container">
-      <div className="colleges-text">Aqu&iacute; encontrar&aacute;s</div>
+      <div className="colleges-text">Nuestros socios</div>
       <div className="college-logos">
         <img src={logoAntil} alt="Logo colegio antil mawida" className="college-logo" />
         <img src={logoCtp} alt="logo colegio ctp" className="college-logo" />

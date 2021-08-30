@@ -1,18 +1,53 @@
 .embroider-container {
   background-color: #96b4ff;
   display: flex;
-  height: 600px;
+  flex-flow: row wrap;
+  min-height: 37.5rem;
   .left-side {
     display: flex;
     flex-flow: column wrap;
-    align-items: center;    
+    align-items: center;
     justify-content: center;
     width: 50%;
     .left-text {
       color: #f0f0f0;
       font: italic bold 24px "Rubik";
-      margin-bottom: 6rem;
+      font-size: 2rem;
+      margin: 2rem 0;
       text-align: center;
+    }
+    .img-machine {
+      width: 100%;
     }
   }
 }
+
+@media (max-width: 992px) {
+  .embroider-container {
+    flex-flow: column nowrap;
+    height: auto;
+    .left-side {
+      width: 100%;
+      .left-text {
+        width: 80%;
+      }
+      .img-machine {
+        width: 70%;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+    .embroider-container {
+      .left-side {
+        width: 100%;
+        .left-text {
+          width: 80%;
+        }
+        .img-machine {
+          width: 90%;
+        }
+      }
+    }
+  }

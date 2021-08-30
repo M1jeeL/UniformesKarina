@@ -20,3 +20,28 @@
   margin-top: -0.2rem;
   transform: rotate(180deg);
 }
+
+@media (max-width: 768px){
+    .hero {
+        min-height: 36rem;
+        .hero-text {
+          font-size: 2.5rem;
+        }
+        .hero-swiper-products{
+            width: 100%;
+        }
+      }
+}
+
+@media (max-width: 576px){
+    .hero {
+        min-height: 36rem;
+        .hero-text {
+          font-size: 2rem;
+        }
+        .hero-swiper-products{
+            width: 100%;
+
+        }
+      }
+}

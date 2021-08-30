@@ -7,10 +7,9 @@ const Hero = () => {
   return (
     <>
       <div className="hero">
-        <div className="hero-text">
-          ¡Aqu&iacute; encontrar&aacute;s la mejor calidad y precios del
-          mercado!
-        </div>
+        <h1 className="hero-text">
+          ¡Aqu&iacute; encontrar&aacute;s la mejor calidad y precios del mercado!
+        </h1>
         <div className="hero-swiper-products">
           <SwiperProducts />
         </div>
