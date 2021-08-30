@@ -6,7 +6,7 @@ const Navbar = () => {
   const [btnBurger, setBtnBurger] = useState(false);
   const [navLinksOpen, setNavLinksOpen] = useState(false);
   return (
-    <nav className="navbar-container">
+    <nav className="navbar-container" data-aos="fade-down">
       <div className="logo">
         <Link to="/">Uniformes Karina</Link>
       </div>

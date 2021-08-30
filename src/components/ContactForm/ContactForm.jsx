@@ -21,7 +21,7 @@ const ContactForm = () => {
     console.log(formState);
   };
   return (
-    <form className="form-contact-container" onSubmit={handleSubmit} id="contact-form">
+    <form className="form-contact-container" onSubmit={handleSubmit} id="contact-form" data-aos="zoom-in">
       <div className="title-contact-form">Puedes contactarte con nosotros</div>
       <div className="input-container">
         <input

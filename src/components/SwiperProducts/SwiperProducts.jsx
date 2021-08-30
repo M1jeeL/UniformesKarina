@@ -32,7 +32,6 @@ const SwiperProducts = () => {
         pagination={{
           clickable: true,
         }}
-        
       >
         <SwiperSlide>
           <ProductHero img={antil1} />
