@@ -14,7 +14,7 @@ const Preheader = () => {
         <div className="pre-header-icono-wsp">
           <i className="fab fa-whatsapp"></i>
         </div>
-        <div className="pre-header-text">+56 9 5412 5238</div>
+        <div className="pre-header-text">+56 9 2090 6339</div>
       </a>
       <a href="https://www.facebook.com/Venta-de-Uniformes-Karina-361735524417086/" target="_blank" rel="noreferrer" className="pre-header-item">
         <div className="pre-header-icono-fb">
